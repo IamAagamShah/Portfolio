@@ -138,7 +138,9 @@ const Contact = () => {
         </Desc>
         <ContactForm>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactTitle>shah.aagam126@gmail.com</ContactTitle>
+           <a href="mailto:shah.aagam126@gmail.com">
+              <ContactTitle>shah.aagam126@gmail.com</ContactTitle>
+           </a>
         </ContactForm>
       </Wrapper>
     </Container>
