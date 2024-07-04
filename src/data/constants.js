@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/IamAagamShah",
   resume:
-    "https://drive.google.com/file/d/1h6JqnQLAlx2atVB7rlHRMJg7WNhi_vQk/view?usp=sharing",
+    "https://drive.google.com/file/d/1uB0iFBh-hlZY4arf5X0UdEXzAk9WW1K1/view?usp=sharing ",
   linkedin: "https://www.linkedin.com/in/iamaagamshah",
   insta: "https://www.instagram.com/aagam.shah._/",
 };
@@ -169,24 +169,6 @@ export const skills = [
   },
 ];
 
-export const experiences = [
-  {
-    id: 0,
-    role: "Web Developer Internship",
-    company: "Yudiz Solutions Pvt. Ltd.",
-    date: "January 2021 - May 2021",
-    desc: "• Worked with HTML, CSS, JavaScript, and other front-end technologies to build responsive and user-friendly websites. Understanding of web development frameworks such as Angular. Experience working with version control systems such as Git. Experience working with web development tools like Visual Studio Code, Atom, or Sublime Text.Strong communication skills and ability to document technical designs and code changes.Strong problem-solving skills and ability to work collaboratively with a team.",
-    skills: [
-      "ReactJS",
-      "NodeJs",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "AWS",
-      "MongoDB",
-    ],
-  },
-];
 
 export const education = [
   {
@@ -209,29 +191,81 @@ export const projects = [
   {
     id: 0,
     title: "E-company",
-    date: "January 2020 to May 2020",
-    description:
-      "Web application (E-company) is website mainly based on PHP and MySQL. It enables users to manage the essential requirements of managers in a business. It keeps track of employee attendance. Additionally, it offers a simple task management system, and it manages the leave applications of employees.",
+    date: "January 2020 to April 2020",
+    description: "Tools: PHP, MySQL, Bootstrap.\nDeveloped E-company, a comprehensive web application designed to streamline various business management tasks, utilizing PHP and MySQL for backend functionality and Bootstrap for a responsive frontend interface.",
+    responsibilities: [
+      "Created a user-friendly frontend using Bootstrap, ensuring a responsive and accessible interface for managing various business functions.",
+      "Developed backend processes with PHP to handle communication with the MySQL database, enabling efficient data processing and storage.",
+      "Implemented core business functionalities, including tracking employee attendance, managing task assignments, and processing leave applications, providing essential tools for business managers.",
+      "Integrated seamless CRUD operations, allowing users to interact dynamically with the database for tasks such as creating, updating, and deleting records, thus maintaining accurate and up-to-date management information."
+    ]
   },
   {
     id: 1,
     title: "Survey-site",
     date: "September 2022 - December 2022",
-    description:
-      "Web application (Survey-site) was developed based on MEAN (MongoDB, ExpressJS, Angular, NodeJs) stack. Users are able to sign in, complete questionnaires on the survey website, design, update, and delete their own survey, website produces a summary report on the user's survey responses.",
+    description: "Tools: MongoDB Atlas, Express.js, Angular, Node.js (MEAN stack)\nDeveloped Survey-site, a versatile web application using the MEAN stack, providing a platform for users to create and manage surveys dynamically. The project focused on offering a seamless user experience with real-time data management and reporting.",
+    responsibilities: [
+      "Designed and developed the frontend using Angular, creating an intuitive and responsive interface that allows users to sign in, complete questionnaires, and manage their own surveys.",
+      "Implemented backend APIs using Node.js and Express.js to handle data processing and interaction with MongoDB Atlas, ensuring efficient data storage and retrieval.",
+      "Utilized MongoDB Atlas for dynamic data management, allowing real-time updates and storage of survey data, and producing summary reports of user responses to provide insights.",
+      "Integrated full CRUD functionalities, enabling users to design, update, and delete surveys while maintaining seamless interaction with the database through the robust API infrastructure."
+    ]
+  },
+  {
+    id: 2,
+    title: "Medi-trans",
+    date: "January 2023 to May 2023",
+    description: "Tools: Figma\nDesigned Medi-trans, an intuitive and user-friendly UI/UX interface for an iOS/Android application aimed at facilitating communication between hospitals for ordering medical supplies and medications.",
+    responsibilities: [
+      "Developed the complete UI/UX design using Figma, focusing on creating a seamless and engaging user experience for hospital staff to interact efficiently."
+    ]
   },
   {
     id: 3,
-    title: "Medi-trans",
-    date: "January 2023 to May 2023",
-    description:
-      "UI/UX Design (Medi-trans) is a user-friendly frontend UI/UX design on Figma for IOS/Android Application. This design includes elements that enable two users (Hospitals) to communicate with each other and order any necessary medical supplies or medications.",
-  },
-  {
-    id: 1,
     title: "Book-Hub",
     date: "September 2023 to December 2023",
-    description:
-      "Web application (Book-Hub) is website based on ASP .Net Core Web Application, AWS (Amazon web services). This User-friendly web project display books data from RDMS of AWS. The user can add new book, edit book information, write reviews about book, also delete the book. All this data operation reflects on RDMS of AWS.",
+    description: "Tools: ASP.NET Core Web Application, AWS (Amazon Web Services)\nDeveloped Book-Hub, a user-friendly web application that displays book data from AWS RDS. Users can add new books, edit book information, write reviews, and delete books, with all data operations reflected in the AWS RDS.",
+    responsibilities: [
+      "Integrated AWS services for dynamic data management and storage, allowing real-time updates and seamless data interactions.",
+      "Implemented core functionalities such as adding, editing, and deleting book records, ensuring all changes are accurately reflected in the AWS RDS.",
+      "Developed a responsive and user-friendly interface using ASP.NET Core, providing an intuitive user experience for managing books and reviews.",
+      "Ensured robust and efficient API communication between the web application and AWS RDS, supporting smooth data operations."
+    ]
   },
+  {
+    id: 4,
+    title: "Vital Sign",
+    date: "January 2024 to April 2024",
+    description: "Tools: MongoDB, Express.js, React.js, Node.js (MERN stack), Apollo GraphQL\nDeveloped Vital Sign, a dynamic web application using the MERN stack, focused on efficient health data management. The application integrates Apollo GraphQL to streamline communication and data handling between the frontend and backend.",
+    responsibilities: [
+      "Implemented Apollo GraphQL to enable efficient and structured data querying and manipulation, reducing unnecessary network requests and optimizing performance.",
+      "Utilized Apollo Client on the frontend to handle GraphQL queries and mutations, providing real-time updates and enhancing the user experience by precisely fetching required data.",
+      "Developed a schema-based data model using GraphQL, which defined clear and structured data interactions between the client and server, promoting scalability and maintainability.",
+      "Optimized user experience by integrating dynamic data loading and responsive interactivity, ensuring seamless and tailored data delivery for each user request."
+    ]
+  },
+  {
+    id: 5,
+    title: "Library Management System",
+    date: "September 2023 to December 2023",
+    description: "Tools: C#, .Net Framework, Microsoft SQL Server, AWS, Google API\nCreated Library Management System, a user-friendly ASP.NET Core web app on AWS for comprehensive library management. Enables browsing, adding, editing, reviewing, and deleting books, seamlessly integrated with AWS-hosted RDMS for efficient data management.",
+    responsibilities: [
+      "Integrated Google API to fetch book information and store it in Microsoft SQL Server, which subsequently syncs with AWS RDMS.",
+      "Developed RESTful Web APIs in C# on ASP.NET Core framework, extensively tested and documented using Swagger.",
+      "Created frontend Razor Pages to provide a responsive and intuitive user interface for managing library resources.",
+      "Ensured smooth data exchange between AWS and the C# web application through optimized API communication."
+    ]
+  },
+  {
+    id: 6,
+    title: "Flight-Booking System",
+    date: "January 2023 to May 2023",
+    description: "Tools: Java, Spring Framework, Spring Boot, Thymeleaf\nDeveloped Flight-Booking System, a web application for Husky Air using Java and the Spring Framework to manage online flight reservations and itineraries. The project focused on creating a seamless and user-friendly booking experience.",
+    responsibilities: [
+      "Developed a comprehensive Spring Boot application, employing RESTful API principles to handle online reservations and manage itineraries, showcasing strong proficiency in Java and Spring technologies.",
+      "Implemented backend functionalities including handling GET and POST methods for data processing and retrieval, ensuring efficient server-client interactions.",
+      "Designed and integrated a user-friendly web interface using Thymeleaf, enhancing the user experience for managing flight reservations and ensuring smooth frontend interactions."
+    ]
+  }
 ];
